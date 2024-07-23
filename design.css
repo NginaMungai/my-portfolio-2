@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('portfolio\ img\ 4.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1, h2, h3 {
+    color: #520505;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #5e4c4c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* Space between each contact link */
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+}
+
+/* Responsive Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid > div {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer */
+footer {
+    background: #cbd2d3;
+    color: #030000;
+    text-align: center;
+    padding: 0.002cm 0;
+    position: fixed;
+    width: 100%;
